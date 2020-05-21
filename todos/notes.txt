@@ -1,0 +1,33 @@
+// Is this what an action should look like?
+action = 
+{
+  type: RECEIVE_TODOS,
+  todos:
+  [
+    {
+      id: 3,
+      title: "homework",
+      body: "reading and coding",
+      done: false
+    },
+    {
+      id: 4,
+      title: "make dinner",
+      body: "boil hotdogs",
+      done: true
+    },
+    {
+      id: 10,
+      title: "get a haircut",
+      body: "by tomorrow",
+      done: false
+    },
+    {
+      id: 20,
+      title: "study",
+      body: "react and redux",
+      done: true
+    }
+  ]
+}
+
